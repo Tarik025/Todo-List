@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+    /* background-color: #1E90FF; */
+    background-color: #87CEFA;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    min-height: 80vh;
+}
+.subhead{
+    font-size: large;
+    font-weight: bold;
+    margin: 35px 0px 5px;
+}
+
+.addBtn{
+    background-color: navy;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    width: 10vw;
+}
+
+.addBtn:hover{
+    background-color: #4169E1;
+}
+
+.input{
+    width: 60vw;
+    padding: 5px;
+}
+
+.addtodo{
+    display: flex;
+    justify-content: center; 
+}
+
+
+.todoholder{
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    gap: 10px; /* Adds spacing between items */
+    color: black;
+}
+
+#btn1{
+    background-color: navy;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 7px;
+    margin: 0 10px;
+}
+
+#btn2{
+    background-color: navy;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    border: none;  
+    border-radius: 10px;
+    padding: 5px 7px;
+    margin: 0 10px; 
+}
+
+#btn1:hover{
+    background-color: #4169E1;
+    transition: all;
+}
+
+#btn2:hover{
+    background-color: #4169E1;
+    transition: all;
+}
+
+.todolist{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 80px;
+    background-color: rgba(245, 245, 245, 0.956);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
